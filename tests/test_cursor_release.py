@@ -239,21 +239,22 @@ class RepetitionStopTests(unittest.TestCase):
 class PerLayerTovaTests(unittest.TestCase):
     def test_per_layer_tova_evicts_the_same_rows_in_every_head(self):
         from orderkv import headmask
-        from test_positions import tiny_model as _tiny
         from transformers import DynamicCache
         from orderkv.positions import causal_mask
-        model = _tiny('sdpa'); ids = torch.arange(3, 35)[None]
+        model = tiny_model('sdpa')
+        ids = torch.arange(3, 35)[None]
         with torch.inference_mode():
-            cache = DynamicCache(); model(ids, use_cache=True, past_key_values=cache)
+            cache = DynamicCache()
+            model(ids, use_cache=True, past_key_values=cache)
             state = headmask.HeadMaskState(32, torch.ones(32, dtype=torch.bool), tova_target=20, per_layer=True)
-            model.config._attn_implementation = headmask.NAME; headmask.ACTIVE = state
+            model.config._attn_implementation = headmask.NAME
+            headmask.ACTIVE = state
             try:
                 model(torch.tensor([[5]]), past_key_values=cache, use_cache=True, position_ids=torch.tensor([[32]]),
                       cache_position=torch.tensor([32]), attention_mask=causal_mask((32,), tuple(range(33)), dtype=torch.float32, device='cpu'))
             finally:
-                headmask.ACTIVE = None; model.config._attn_implementation = 'sdpa'
+                headmask.ACTIVE = None
+                model.config._attn_implementation = 'sdpa'
         for blocked in state.blocked.values():
             self.assertTrue(torch.equal(blocked[0], blocked[1]))
             self.assertEqual(int(blocked[0].sum()), 12)
-
-

@@ -1,8 +1,7 @@
 # Progress-aware KV cache release
 
 When a language model copies a long table out of a long web page in page order, this code frees the memory the
-model holds for the parts of the page it has already copied. It is like copying a table out of a long page: you
-can stop holding onto the parts you have already copied.
+model holds for the parts of the page it has already copied.
 
 - **KV cache**: the memory a model keeps for every token it has read, so it does not reread them for each new word.
 - **Decoding**: generating the answer one token at a time; the cache must stay in memory the whole time.
@@ -34,8 +33,9 @@ right); changes are against full cache with 95% intervals that resample whole we
 
 On all 31 paired held-out Qwen pages, including those where nothing is freed, cursor release saves 27.4% of
 decode KV memory [18.3, 36.1] at −0.2 points of row F1. On long tables (8K tier, 9 pages, about 2,800 output tokens)
-it saves 30.4% but loses 7.5 points [−20.4, −0.3], mostly on one page whose delimiters drifted after an eviction. TOVA evicts what the model attends to least;
-StreamingLLM-style drops the oldest page text; SnapKV keeps what the prompt's final instructions attend to.
+it saves 30.4% but loses 7.5 points [−20.4, −0.3], mostly on one page whose delimiters drifted after an eviction.
+TOVA evicts what the model attends to least; StreamingLLM-style drops the oldest page text; SnapKV keeps what the
+prompt's final instructions attend to.
 
 ## How it works
 

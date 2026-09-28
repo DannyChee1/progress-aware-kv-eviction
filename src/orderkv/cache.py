@@ -50,7 +50,7 @@ def compact_cache(cache: DynamicCache, keep_physical_indices,
         if key.ndim != 4 or key.shape != value.shape or key.shape[-2] != length:
             raise ValueError("Every K/V layer must match the physical position map")
         if key.shape[0] != 1:
-            raise ValueError("The pilot supports batch size one")
+            raise ValueError("Only batch size one is supported")
     updated = replace(logical_positions, kept=tuple(logical_positions.kept[i] for i in keep))
     before = cache_bytes(cache)
     if keep == tuple(range(length)):

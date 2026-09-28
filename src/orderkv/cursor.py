@@ -2,9 +2,9 @@
 
 After each completed output row, the row's cells are string-matched back into the
 source text; every source block more than `margin_blocks` before the latest match
-is released. No evidence prediction is involved: the model's own output marks
-what has been consumed. Rows whose longest cell is shorter than `min_anchor`
-characters are not trusted as anchors.
+is released. No attention scores or trained predictor are used: the model's own
+output marks what has been consumed. Rows whose longest cell is shorter than
+`min_anchor` characters are not trusted as anchors.
 """
 import bisect
 from dataclasses import dataclass

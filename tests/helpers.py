@@ -6,7 +6,6 @@ from tokenizers import Tokenizer, models, pre_tokenizers, decoders
 from transformers import PreTrainedTokenizerFast
 
 
-
 def tokenizer_fixture():
     vocab = {c: i for i, c in enumerate(['[UNK]', '[EOS]'] + list(dict.fromkeys(string.printable)))}
     backend = Tokenizer(models.WordLevel(vocab, unk_token='[UNK]'))
