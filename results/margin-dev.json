@@ -1,0 +1,28 @@
+{
+ "rule": "smallest margin in {0,2,4,8,16} with violation rate <= 0.5% on dev pages only",
+ "pages": 40,
+ "split": "dev (first 40 of the 0.5k tier)",
+ "sweep": {
+  "0": {
+   "saving": 0.37638254502153545,
+   "violation_rate": 0.15849673202614378
+  },
+  "2": {
+   "saving": 0.3457437268129702,
+   "violation_rate": 0.06862745098039216
+  },
+  "4": {
+   "saving": 0.316297813987813,
+   "violation_rate": 0.0196078431372549
+  },
+  "8": {
+   "saving": 0.26644110682312927,
+   "violation_rate": 0.0
+  },
+  "16": {
+   "saving": 0.20817907556267684,
+   "violation_rate": 0.0
+  }
+ },
+ "chosen_margin": 8
+}

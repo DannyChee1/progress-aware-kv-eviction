@@ -1,0 +1,3 @@
+tokenizer.json and tokenizer_config.json are copied unchanged from Qwen/Qwen2.5-7B-Instruct at revision
+a09a35458c702b33eeacc393d103063234e8bc28 (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct), licensed under the
+Apache License 2.0 in LICENSE. scripts/margin_audit.py and scripts/effective_margin.py use them to count tokens.

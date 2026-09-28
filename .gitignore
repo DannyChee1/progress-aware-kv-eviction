@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# LongProc clone, rebuilt pages and gold tables (scripts/fetch_longproc.py), gated Llama tokenizer
+external/
+data/**/*.jsonl
+llama-tokenizer/
+
+# Full run records with model outputs, and shard logs
+outputs/
+logs/

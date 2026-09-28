@@ -1,0 +1,457 @@
+{
+  "cases": [
+    {
+      "case_id": "test-W304_0.5k_2",
+      "seed": 1,
+      "context_target": 16384,
+      "prompt_tokens": 12066,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W304_0.5k_2",
+        "website_id": "W304",
+        "rows": 15
+      }
+    },
+    {
+      "case_id": "test-W80_0.5k_1",
+      "seed": 2,
+      "context_target": 16384,
+      "prompt_tokens": 10999,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W80_0.5k_1",
+        "website_id": "W80",
+        "rows": 18
+      }
+    },
+    {
+      "case_id": "test-W252_0.5k_2",
+      "seed": 4,
+      "context_target": 16384,
+      "prompt_tokens": 14577,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W252_0.5k_2",
+        "website_id": "W252",
+        "rows": 20
+      }
+    },
+    {
+      "case_id": "test-W8_0.5k_2",
+      "seed": 5,
+      "context_target": 16384,
+      "prompt_tokens": 12333,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W8_0.5k_2",
+        "website_id": "W8",
+        "rows": 21
+      }
+    },
+    {
+      "case_id": "test-W278_0.5k_2",
+      "seed": 6,
+      "context_target": 16384,
+      "prompt_tokens": 11796,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W278_0.5k_2",
+        "website_id": "W278",
+        "rows": 25
+      }
+    },
+    {
+      "case_id": "test-W284_0.5k_1",
+      "seed": 7,
+      "context_target": 16384,
+      "prompt_tokens": 9569,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W284_0.5k_1",
+        "website_id": "W284",
+        "rows": 6
+      }
+    },
+    {
+      "case_id": "test-W239_0.5k_1",
+      "seed": 8,
+      "context_target": 16384,
+      "prompt_tokens": 22874,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W239_0.5k_1",
+        "website_id": "W239",
+        "rows": 26
+      }
+    },
+    {
+      "case_id": "test-W274_0.5k_2",
+      "seed": 9,
+      "context_target": 16384,
+      "prompt_tokens": 9756,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W274_0.5k_2",
+        "website_id": "W274",
+        "rows": 8
+      }
+    },
+    {
+      "case_id": "test-W87_0.5k_2",
+      "seed": 11,
+      "context_target": 16384,
+      "prompt_tokens": 13016,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W87_0.5k_2",
+        "website_id": "W87",
+        "rows": 15
+      }
+    },
+    {
+      "case_id": "test-W218_0.5k_1",
+      "seed": 13,
+      "context_target": 16384,
+      "prompt_tokens": 22187,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W218_0.5k_1",
+        "website_id": "W218",
+        "rows": 16
+      }
+    },
+    {
+      "case_id": "test-W111_0.5k_1",
+      "seed": 14,
+      "context_target": 16384,
+      "prompt_tokens": 7041,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W111_0.5k_1",
+        "website_id": "W111",
+        "rows": 10
+      }
+    },
+    {
+      "case_id": "test-W7_0.5k_2",
+      "seed": 17,
+      "context_target": 16384,
+      "prompt_tokens": 8884,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W7_0.5k_2",
+        "website_id": "W7",
+        "rows": 23
+      }
+    },
+    {
+      "case_id": "test-W239_0.5k_2",
+      "seed": 20,
+      "context_target": 16384,
+      "prompt_tokens": 16773,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W239_0.5k_2",
+        "website_id": "W239",
+        "rows": 16
+      }
+    },
+    {
+      "case_id": "test-W178_0.5k_2",
+      "seed": 22,
+      "context_target": 16384,
+      "prompt_tokens": 15798,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W178_0.5k_2",
+        "website_id": "W178",
+        "rows": 16
+      }
+    },
+    {
+      "case_id": "test-W233_0.5k_2",
+      "seed": 23,
+      "context_target": 16384,
+      "prompt_tokens": 7518,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W233_0.5k_2",
+        "website_id": "W233",
+        "rows": 8
+      }
+    },
+    {
+      "case_id": "test-W204_0.5k_1",
+      "seed": 24,
+      "context_target": 16384,
+      "prompt_tokens": 14803,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W204_0.5k_1",
+        "website_id": "W204",
+        "rows": 20
+      }
+    },
+    {
+      "case_id": "test-W307_0.5k_2",
+      "seed": 25,
+      "context_target": 16384,
+      "prompt_tokens": 21680,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W307_0.5k_2",
+        "website_id": "W307",
+        "rows": 5
+      }
+    },
+    {
+      "case_id": "test-W276_0.5k_2",
+      "seed": 26,
+      "context_target": 16384,
+      "prompt_tokens": 17572,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W276_0.5k_2",
+        "website_id": "W276",
+        "rows": 9
+      }
+    },
+    {
+      "case_id": "test-W133_0.5k_1",
+      "seed": 27,
+      "context_target": 16384,
+      "prompt_tokens": 12959,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W133_0.5k_1",
+        "website_id": "W133",
+        "rows": 6
+      }
+    },
+    {
+      "case_id": "test-W304_0.5k_1",
+      "seed": 30,
+      "context_target": 16384,
+      "prompt_tokens": 11773,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W304_0.5k_1",
+        "website_id": "W304",
+        "rows": 15
+      }
+    },
+    {
+      "case_id": "test-W307_0.5k_1",
+      "seed": 31,
+      "context_target": 16384,
+      "prompt_tokens": 21995,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W307_0.5k_1",
+        "website_id": "W307",
+        "rows": 5
+      }
+    },
+    {
+      "case_id": "test-W74_0.5k_2",
+      "seed": 32,
+      "context_target": 16384,
+      "prompt_tokens": 12053,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W74_0.5k_2",
+        "website_id": "W74",
+        "rows": 29
+      }
+    },
+    {
+      "case_id": "test-W268_0.5k_1",
+      "seed": 33,
+      "context_target": 16384,
+      "prompt_tokens": 9850,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W268_0.5k_1",
+        "website_id": "W268",
+        "rows": 10
+      }
+    },
+    {
+      "case_id": "test-W18_0.5k_1",
+      "seed": 34,
+      "context_target": 16384,
+      "prompt_tokens": 14856,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W18_0.5k_1",
+        "website_id": "W18",
+        "rows": 13
+      }
+    },
+    {
+      "case_id": "test-W309_0.5k_2",
+      "seed": 36,
+      "context_target": 16384,
+      "prompt_tokens": 17802,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W309_0.5k_2",
+        "website_id": "W309",
+        "rows": 35
+      }
+    },
+    {
+      "case_id": "test-W156_0.5k_1",
+      "seed": 37,
+      "context_target": 16384,
+      "prompt_tokens": 13733,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W156_0.5k_1",
+        "website_id": "W156",
+        "rows": 26
+      }
+    },
+    {
+      "case_id": "test-W284_0.5k_2",
+      "seed": 38,
+      "context_target": 16384,
+      "prompt_tokens": 10652,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W284_0.5k_2",
+        "website_id": "W284",
+        "rows": 6
+      }
+    },
+    {
+      "case_id": "test-W250_0.5k_3",
+      "seed": 39,
+      "context_target": 16384,
+      "prompt_tokens": 12716,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W250_0.5k_3",
+        "website_id": "W250",
+        "rows": 8
+      }
+    },
+    {
+      "case_id": "test-W74_0.5k_1",
+      "seed": 40,
+      "context_target": 16384,
+      "prompt_tokens": 12062,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W74_0.5k_1",
+        "website_id": "W74",
+        "rows": 29
+      }
+    },
+    {
+      "case_id": "test-W112_0.5k_2",
+      "seed": 41,
+      "context_target": 16384,
+      "prompt_tokens": 12215,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W112_0.5k_2",
+        "website_id": "W112",
+        "rows": 7
+      }
+    },
+    {
+      "case_id": "test-W252_0.5k_1",
+      "seed": 46,
+      "context_target": 16384,
+      "prompt_tokens": 14185,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W252_0.5k_1",
+        "website_id": "W252",
+        "rows": 20
+      }
+    },
+    {
+      "case_id": "test-W308_0.5k_2",
+      "seed": 47,
+      "context_target": 16384,
+      "prompt_tokens": 12299,
+      "overlap_regime": "document_order",
+      "length_regime": "0.5k",
+      "layout": "longproc",
+      "realized": {
+        "task_id": "W308_0.5k_2",
+        "website_id": "W308",
+        "rows": 9
+      }
+    }
+  ],
+  "sha256": {
+    "test_public.jsonl": "50dba22e21c82d9965c2c6a3249a5b324f9ad02cbac7246d957c64c6690f3a1f",
+    "test_private.jsonl": "846164460ac793e0c04abe37063a7136feadfcf76885a778220dea83b3d1ef8d"
+  },
+  "note": "same 32 held-out pages as the Qwen2.5-7B run; prompt_tokens are Qwen counts"
+}

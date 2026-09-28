@@ -1,0 +1,26 @@
+{
+ "Qwen2.5-7B held-out": {
+  "configured_margin_blocks": 8,
+  "located_rows": 234,
+  "mean_blocks": 9.094017094017094,
+  "median_blocks": 9.0,
+  "min_blocks": 8,
+  "max_blocks": 10
+ },
+ "Llama-3.1-8B held-out": {
+  "configured_margin_blocks": 8,
+  "located_rows": 300,
+  "mean_blocks": 9.233333333333333,
+  "median_blocks": 9.0,
+  "min_blocks": 8,
+  "max_blocks": 11
+ },
+ "Qwen2.5-7B 8K tier": {
+  "configured_margin_blocks": 8,
+  "located_rows": 681,
+  "mean_blocks": 9.312775330396477,
+  "median_blocks": 9,
+  "min_blocks": 8,
+  "max_blocks": 10
+ }
+}

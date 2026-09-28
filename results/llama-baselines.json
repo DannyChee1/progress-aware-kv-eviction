@@ -1,0 +1,68 @@
+{
+ "model": "meta-llama/Llama-3.1-8B-Instruct",
+ "pages": 20,
+ "sites": 18,
+ "conditions": {
+  "F0": {
+   "name": "full cache",
+   "mean_f1": 0.5444295582142517,
+   "f1_change": 0.0,
+   "ci95_site": [
+    0.0,
+    0.0
+   ],
+   "kv_per_step_saving": 0.0,
+   "capped": 0,
+   "pages_losing_5pp": 0
+  },
+  "R0": {
+   "name": "cursor release",
+   "mean_f1": 0.5400935148538181,
+   "f1_change": -0.0043360433604336,
+   "ci95_site": [
+    -0.012388695315524572,
+    0.0
+   ],
+   "kv_per_step_saving": 0.3608384445192252,
+   "capped": 0,
+   "pages_losing_5pp": 1
+  },
+  "T0": {
+   "name": "TOVA per KV head",
+   "mean_f1": 0.4685267402659989,
+   "f1_change": -0.07590281794825282,
+   "ci95_site": [
+    -0.1489537282640731,
+    -0.018746204251754352
+   ],
+   "kv_per_step_saving": 0.35893888446605104,
+   "capped": 0,
+   "pages_losing_5pp": 5
+  },
+  "L0": {
+   "name": "StreamingLLM-style",
+   "mean_f1": 0.4783189348042679,
+   "f1_change": -0.06611062340998379,
+   "ci95_site": [
+    -0.22447912071195295,
+    0.10370088260908218
+   ],
+   "kv_per_step_saving": 0.36134890953874,
+   "capped": 6,
+   "pages_losing_5pp": 6
+  },
+  "S1": {
+   "name": "SnapKV per-head",
+   "mean_f1": 0.17929576247265708,
+   "f1_change": -0.36513379574159466,
+   "ci95_site": [
+    -0.5617116334924303,
+    -0.16963794079743255
+   ],
+   "kv_per_step_saving": 0.3619409633568485,
+   "capped": 4,
+   "pages_losing_5pp": 12
+  }
+ },
+ "missing_pages": []
+}
